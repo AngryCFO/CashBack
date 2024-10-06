@@ -25,6 +25,12 @@ public class CashbackHackServiceTest {
     }
 
     @Test
+    public void testRemainForExactThousand() {
+        CashbackHackService service = new CashbackHackService();
+        assertEquals(0, service.remain(1000));
+    }
+
+    @Test
     void amountMoreBoundary() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1001;
