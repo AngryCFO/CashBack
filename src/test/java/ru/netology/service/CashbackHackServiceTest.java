@@ -27,7 +27,7 @@ public class CashbackHackServiceTest {
     @Test
     public void testRemainForExactThousand() {
         CashbackHackService service = new CashbackHackService();
-        Assertions.assertEquals(0, service.remain(1000));
+        org.junit.Assert.assertEquals(0, service.remain(1000));
     }
 
     @Test
