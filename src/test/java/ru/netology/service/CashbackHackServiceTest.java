@@ -28,7 +28,7 @@ public class CashbackHackServiceTest {
     public void testRemainForExactThousand() {
         CashbackHackService service = new CashbackHackService();
         Assert.assertEquals(service.remain(1000), 0);
-}
+    }
 
     @Test
     void amountMoreBoundary() {
