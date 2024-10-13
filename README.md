@@ -1,3 +1,4 @@
+[![Java CI with Gradle](https://github.com/AngryCFO/CashBack/actions/workflows/gradle.yml/badge.svg)](https://github.com/AngryCFO/CashBack/actions/workflows/gradle.yml)
 ## Задача №1: CashBackHacker
 
 ### Введение
